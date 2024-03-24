@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Le Wagon</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form {
+            margin-top: 50px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input[type="text"], 
+        .contact-form input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .cards {
+            margin-bottom: 50px; /* Added margin bottom to create space */
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <div class="container">
+        <h1>EntrepreConnect: World's first online entrepreneurship website</h1>
+        <h2>Meet like-minded people pioneering to create world-class companies</h2>
+        <a href="" class="btn blue">Start now</a>
+    </div>
+</div>
+
+<div class="container">
+    <h2 align="center">EntrepreConnect on Every Continent</h2>
+
+    <div class="cards"> 
+        <div class="card">
+            <img src="paris.jpeg" alt="Paris">
+            <h3>Europe</h3> 
+        </div>
+        <div class="card">
+            <img src="singapore.jpeg" alt="Singapore">
+            <h3>Asia</h3>
+        </div>
+        <div class="card">
+            <img src="africa.jpeg" alt="Africa">
+            <h3>Africa</h3>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
+
